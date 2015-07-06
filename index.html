@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8">
+        <link rel="canonical" href="http://www.hitta.se">
+        <title>hitta.se - alla privatpersoner & bolag. Telefonnummer & kartor</title>
+        <meta name="description" content="Alla sveriges företag, personer, öppettider och telefonnummer på ett ställe. Ta reda på hur dina grannar röstar, vad de tjänar och vad de har för intressen.">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+        <link rel="stylesheet" href="css/fontello.css">
+        <!--[if IE 7]><link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
+        <link rel="stylesheet" href="css/animation.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    </head>
+    <body>
+        <section class="top-bar">
+            <div class="top-bar-right" id="js-toggle-login">
+                <span class="icon-user account-txt">Ditt konto</span>
+            </div>
+        </section>
+        <div class="login-form-wrap hidden">
+            <form action="http://test.hitta.se/work-sample/v1/worksample/login" method="POST" id="login-form">
+                <input type="text" placeholder="E-post" name="username" id="username" data-required="true" />
+                <input type="password" placeholder="Lösenord" name="password" id="password" data-required="true" />
+                <div class="button-wrap">
+                    <button>Logga in</button>
+                    <i class="icon-spin5 animate-spin hidden"></i>
+                </div>
+            </form>
+        </div>
+
+        <div class="logout-form-wrap hidden">
+            <form action="" method="post" id="logout-form">
+                <div class="button-wrap">
+                    <button>Logga ut</button>
+                </div>
+            </form>
+        </div>
+
+        <header class="search-box">
+            <img src="img/search-box.png" alt="search-box">
+        </header>
+        <footer class="footer">
+            <img src="img/footer.png" alt="footer" />
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+    </body>
+</html>
